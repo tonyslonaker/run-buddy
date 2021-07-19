@@ -21,12 +21,8 @@ header a {
     color: #fce138;
 }
 
-header nav {
-    float: right;
-    margin: 7px 0;
-}
-
 header nav ul li a {
+    float: right;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
