@@ -67,4 +67,5 @@ footer a {
 
 section {
     padding: 60px;
+    background-image: rul("../images/hero-bg.jpg");
 }
