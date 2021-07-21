@@ -191,3 +191,14 @@ section {
     background: #024e76;
     color: #fce138;
 }
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
