@@ -243,3 +243,14 @@ section {
     width: 400px;
     height: 400px;
 }
+
+/* @media only screen and (max-width: 550px) {
+    body {
+      background-color: lightblue;
+    }
+    .contact-info iframe {
+        width: 200px;
+        height: 200px;
+    }
+    
+  } */
