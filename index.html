@@ -75,39 +75,76 @@
         <!-- end hero -->
         <!-- "what we do" section -->
         <section id="what-we-do" class="intro">
-            <h2 class="section-title primary-border">What We Do</h2>
+        <!-- Wrap every h2 with a class of "section-title" in this div!-->
+            <div>
+            <h2 class="section-title primary-border">
+                What We Do
+            </h2>
+            </div>
+          <div class="flex-row">
             <p>
             butcher selfies chambray shabby chick gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggins narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
             </p>
+          </div>
             <!-- "what you do" section -->
          <section id="what-you-do" class="steps">
-            <h2 class="section-title secondary-border">What You Do</h2>
-            <div>
+             <div>
+            <h2 class="section-title secondary-border">
+                What You Do
+            </h2>
+            </div>
+            <div class="step">
                 <!-- insert this img element -->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-                <p>Your're already here, so why not?</p>
+                <h3>Step 1.</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-1.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Fill Out The Form Above</h4>
+                        <p>Your're already here, so why not?</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
+            <div class="step">
                 <!-- insert this img element -->
-                <img src="./assets/images/step-2.svg" alt="" />
-                <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
-                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                <h3>Step 2.</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-2.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Consult with One of Our Trainers.</h4>
+                        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
+            <div class="step">
                 <!-- insert this img element -->
-                <img src="./assets/images/step-3.svg" alt="" />
-                <h3>Step 3: <span>Get Running.</span></h3>
-                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+                <h3>Step 3.</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-3.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Get Running.</h4>
+                        <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <!-- insert this img element -->
-                <img src="./assets/images/step-4.svg" alt="" />
-                <h3>Step 4: <span>See Results.</span></h3>
-                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            <div class="step">
+                <h3>Step 4.</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <!-- insert this img element -->
+                        <img src="./assets/images/step-4.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>See Results.</h4>
+                        <p>Bi-weekly checkins with your trainer will keep you focused</p>
+                    </div>
+                </div>
             </div>
         </section>
             <!-- "meet the trainers" section -->
@@ -152,7 +189,11 @@
         </section>
             <!-- "reach out" section -->
         <section id="reach-out" class="contact">
-            <h2 class="section-title secondary-border">Reach Out</h2>
+            <div>
+            <h2 class="section-title secondary-border">
+                Reach Out
+            </h2>
+            </div>
             <div class="contact-info">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.9033586314335!2d-80.73022288374867!3d28.240612808458884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de0698a4b9a97f%3A0x733a37700f49f30!2sBurn%20Boot%20Camp!5e0!3m2!1sen!2sus!4v1626895587712!5m2!1sen!2sus"
                 width="600"
@@ -161,6 +202,18 @@
                 allowfullscreen=""
                 loading="lazy">
                 </iframe>
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
             </div>
             <div>
                 <h3>Run Buddy</h3>
