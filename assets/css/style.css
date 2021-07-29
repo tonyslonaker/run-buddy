@@ -355,22 +355,16 @@ section {
 
   /* Media query for smaller desktop screens and smaller */
 
-  @media screen and (max-width: 980px) {
-      header h1 a
+  @media screen and (max-width: 980px) {}
           /* this will be applied on any screen smaller than 980px */
-  }
   
   /* Media query for tablets and smaller */
 
-  @media screen and (max-width: 768px) {
-      header h1
+  @media screen and (max-width: 768px) {}
           /* this will be applied on any screen between 768px and 575px */
-  }
 
   /* Media query for mobile phones and smaller */
-
-@media screen and (max-width: 575px) {
-    header h1 
+  
+  @media screen and (max-width: 575px) {}
         /* this will be applied on any screen smaller than 575px */
 
-}
